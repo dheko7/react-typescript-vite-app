@@ -1,0 +1,597 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Sabor & Alma - Restaurante de cocina mediterránea en Barcelona. Donde cada bocado cuenta. Reserva tu mesa ahora.">
+    <meta name="keywords" content="restaurante, Barcelona, cocina mediterránea, gastronomía, reservas, Sabor & Alma">
+    <meta name="author" content="Sabor & Alma">
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="Sabor & Alma - Restaurante Mediterráneo en Barcelona">
+    <meta property="og:description" content="Descubre una experiencia gastronómica única. Donde cada bocado cuenta.">
+    <meta property="og:image" content="https://images.pexels.com/photos/1126728/pexels-photo-1126728.jpeg?auto=compress&cs=tinysrgb&w=1200">
+    <meta property="og:url" content="https://saboralma.com">
+    <meta property="og:type" content="website">
+
+    <title>Sabor & Alma - Restaurante Mediterráneo en Barcelona</title>
+    <link rel="icon" type="image/png" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🍽️</text></svg>">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar" role="navigation" aria-label="Navegación principal">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="#inicio" aria-label="Ir al inicio">Sabor & Alma</a>
+            </div>
+            <button class="nav-toggle" id="navToggle" aria-label="Abrir menú" aria-expanded="false">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#inicio" class="nav-link">Inicio</a></li>
+                <li><a href="#historia" class="nav-link">Historia</a></li>
+                <li><a href="#menu" class="nav-link">Menú</a></li>
+                <li><a href="#galeria" class="nav-link">Galería</a></li>
+                <li><a href="#eventos" class="nav-link">Eventos</a></li>
+                <li><a href="#reservas" class="nav-link">Reservas</a></li>
+                <li><a href="#contacto" class="nav-link">Contacto</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="inicio">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1 class="hero-title fade-in">Sabor & Alma</h1>
+            <p class="hero-subtitle fade-in-delay">Donde cada bocado cuenta</p>
+            <div class="hero-buttons fade-in-delay-2">
+                <a href="#reservas" class="btn btn-primary" aria-label="Reservar mesa">Reservar Ahora</a>
+                <a href="tel:+34934567890" class="btn btn-secondary" aria-label="Llamar para pedir">Pedir Online</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Historia Section -->
+    <section class="section historia" id="historia">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Nuestra Historia</h2>
+                <div class="section-divider"></div>
+            </div>
+            <div class="historia-content">
+                <div class="historia-text">
+                    <p class="fade-up">
+                        Sabor & Alma nació en 2015 de la pasión de dos hermanos barceloneses por la cocina mediterránea auténtica.
+                        Inspirados por las recetas de su abuela y los sabores de su infancia, María y Jordi decidieron crear un espacio
+                        donde la tradición se encontrara con la innovación. Cada plato que servimos cuenta una historia,
+                        elaborado con ingredientes locales de la más alta calidad y técnicas que honran nuestras raíces culinarias.
+                    </p>
+                    <p class="fade-up">
+                        Hoy, después de casi una década, seguimos comprometidos con nuestra filosofía: ofrecer experiencias gastronómicas
+                        inolvidables en un ambiente acogedor y elegante. Nuestro equipo de chefs combina la experiencia de generaciones
+                        con creatividad contemporánea, mientras que nuestro servicio cálido y profesional hace que cada visita sea especial.
+                        En Sabor & Alma, no solo servimos comida, compartimos momentos que alimentan el alma.
+                    </p>
+                </div>
+                <div class="historia-image fade-up">
+                    <img src="https://images.pexels.com/photos/3184192/pexels-photo-3184192.jpeg?auto=compress&cs=tinysrgb&w=800"
+                         alt="Interior del restaurante Sabor & Alma"
+                         loading="lazy">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section class="section menu-section" id="menu">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Nuestro Menú</h2>
+                <div class="section-divider"></div>
+                <p class="section-subtitle">Descubre nuestras creaciones culinarias</p>
+            </div>
+
+            <!-- Entrantes -->
+            <div class="menu-category">
+                <h3 class="menu-category-title fade-up">Entrantes</h3>
+                <div class="menu-grid">
+                    <div class="menu-item fade-up">
+                        <img src="https://images.pexels.com/photos/1640772/pexels-photo-1640772.jpeg?auto=compress&cs=tinysrgb&w=400"
+                             alt="Carpaccio de ternera"
+                             loading="lazy">
+                        <div class="menu-item-content">
+                            <div class="menu-item-header">
+                                <h4>Carpaccio de Ternera Premium</h4>
+                                <span class="menu-price">16€</span>
+                            </div>
+                            <p>Finas láminas de ternera con rúcula, parmesano y vinagreta de trufa</p>
+                        </div>
+                    </div>
+                    <div class="menu-item fade-up">
+                        <img src="https://images.pexels.com/photos/1833349/pexels-photo-1833349.jpeg?auto=compress&cs=tinysrgb&w=400"
+                             alt="Croquetas caseras"
+                             loading="lazy">
+                        <div class="menu-item-content">
+                            <div class="menu-item-header">
+                                <h4>Croquetas de la Abuela</h4>
+                                <span class="menu-price">12€</span>
+                            </div>
+                            <p>Croquetas artesanales de jamón ibérico y setas de temporada</p>
+                        </div>
+                    </div>
+                    <div class="menu-item fade-up">
+                        <img src="https://images.pexels.com/photos/1640773/pexels-photo-1640773.jpeg?auto=compress&cs=tinysrgb&w=400"
+                             alt="Ensalada mediterránea"
+                             loading="lazy">
+                        <div class="menu-item-content">
+                            <div class="menu-item-header">
+                                <h4>Ensalada Mediterránea</h4>
+                                <span class="menu-price">14€</span>
+                            </div>
+                            <p>Mezcla de hojas frescas, tomates cherry, burrata, aceitunas y vinagreta de albahaca</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Platos Principales -->
+            <div class="menu-category">
+                <h3 class="menu-category-title fade-up">Platos Principales</h3>
+                <div class="menu-grid">
+                    <div class="menu-item fade-up">
+                        <img src="https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg?auto=compress&cs=tinysrgb&w=400"
+                             alt="Entrecot a la parrilla"
+                             loading="lazy">
+                        <div class="menu-item-content">
+                            <div class="menu-item-header">
+                                <h4>Entrecot Madurado a la Parrilla</h4>
+                                <span class="menu-price">28€</span>
+                            </div>
+                            <p>300g de entrecot con patatas confitadas y reducción de vino tinto</p>
+                        </div>
+                    </div>
+                    <div class="menu-item fade-up">
+                        <img src="https://images.pexels.com/photos/725991/pexels-photo-725991.jpeg?auto=compress&cs=tinysrgb&w=400"
+                             alt="Risotto de setas"
+                             loading="lazy">
+                        <div class="menu-item-content">
+                            <div class="menu-item-header">
+                                <h4>Risotto de Setas del Bosque</h4>
+                                <span class="menu-price">22€</span>
+                            </div>
+                            <p>Arroz cremoso con mezcla de setas, parmesano y aceite de trufa</p>
+                        </div>
+                    </div>
+                    <div class="menu-item fade-up">
+                        <img src="https://images.pexels.com/photos/1279330/pexels-photo-1279330.jpeg?auto=compress&cs=tinysrgb&w=400"
+                             alt="Lubina a la sal"
+                             loading="lazy">
+                        <div class="menu-item-content">
+                            <div class="menu-item-header">
+                                <h4>Lubina a la Sal Mediterránea</h4>
+                                <span class="menu-price">26€</span>
+                            </div>
+                            <p>Lubina salvaje cocida en costra de sal con verduras asadas</p>
+                        </div>
+                    </div>
+                    <div class="menu-item fade-up">
+                        <img src="https://images.pexels.com/photos/1417426/pexels-photo-1417426.jpeg?auto=compress&cs=tinysrgb&w=400"
+                             alt="Paella valenciana"
+                             loading="lazy">
+                        <div class="menu-item-content">
+                            <div class="menu-item-header">
+                                <h4>Paella de Marisco</h4>
+                                <span class="menu-price">24€</span>
+                            </div>
+                            <p>Arroz con gambas, mejillones, calamares y alioli casero (mínimo 2 personas)</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Postres -->
+            <div class="menu-category">
+                <h3 class="menu-category-title fade-up">Postres</h3>
+                <div class="menu-grid">
+                    <div class="menu-item fade-up">
+                        <img src="https://images.pexels.com/photos/1126359/pexels-photo-1126359.jpeg?auto=compress&cs=tinysrgb&w=400"
+                             alt="Crema catalana"
+                             loading="lazy">
+                        <div class="menu-item-content">
+                            <div class="menu-item-header">
+                                <h4>Crema Catalana Artesanal</h4>
+                                <span class="menu-price">8€</span>
+                            </div>
+                            <p>Nuestra versión de la clásica crema con caramelo crujiente</p>
+                        </div>
+                    </div>
+                    <div class="menu-item fade-up">
+                        <img src="https://images.pexels.com/photos/1055270/pexels-photo-1055270.jpeg?auto=compress&cs=tinysrgb&w=400"
+                             alt="Tarta de chocolate"
+                             loading="lazy">
+                        <div class="menu-item-content">
+                            <div class="menu-item-header">
+                                <h4>Coulant de Chocolate</h4>
+                                <span class="menu-price">9€</span>
+                            </div>
+                            <p>Bizcocho de chocolate con corazón fundido y helado de vainilla</p>
+                        </div>
+                    </div>
+                    <div class="menu-item fade-up">
+                        <img src="https://images.pexels.com/photos/2144112/pexels-photo-2144112.jpeg?auto=compress&cs=tinysrgb&w=400"
+                             alt="Tarta de queso"
+                             loading="lazy">
+                        <div class="menu-item-content">
+                            <div class="menu-item-header">
+                                <h4>Cheesecake de Frutos Rojos</h4>
+                                <span class="menu-price">8€</span>
+                            </div>
+                            <p>Tarta de queso cremosa con coulis de frutos del bosque</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Bebidas -->
+            <div class="menu-category">
+                <h3 class="menu-category-title fade-up">Bebidas</h3>
+                <div class="menu-simple-grid">
+                    <div class="menu-simple-item fade-up">
+                        <div class="menu-item-header">
+                            <h4>Vino Tinto Reserva</h4>
+                            <span class="menu-price">18€</span>
+                        </div>
+                        <p>Selección de vinos de la Rioja y Priorat</p>
+                    </div>
+                    <div class="menu-simple-item fade-up">
+                        <div class="menu-item-header">
+                            <h4>Vino Blanco</h4>
+                            <span class="menu-price">16€</span>
+                        </div>
+                        <p>Albariño, Verdejo y Chardonnay</p>
+                    </div>
+                    <div class="menu-simple-item fade-up">
+                        <div class="menu-item-header">
+                            <h4>Cava Brut Nature</h4>
+                            <span class="menu-price">22€</span>
+                        </div>
+                        <p>Cava catalán de alta calidad</p>
+                    </div>
+                    <div class="menu-simple-item fade-up">
+                        <div class="menu-item-header">
+                            <h4>Cerveza Artesanal</h4>
+                            <span class="menu-price">5€</span>
+                        </div>
+                        <p>Variedades locales</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Galeria Section -->
+    <section class="section galeria" id="galeria">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Galería</h2>
+                <div class="section-divider"></div>
+            </div>
+            <div class="galeria-grid">
+                <div class="galeria-item fade-up">
+                    <img src="https://images.pexels.com/photos/1126728/pexels-photo-1126728.jpeg?auto=compress&cs=tinysrgb&w=600"
+                         alt="Plato gourmet del restaurante"
+                         loading="lazy">
+                </div>
+                <div class="galeria-item fade-up">
+                    <img src="https://images.pexels.com/photos/941861/pexels-photo-941861.jpeg?auto=compress&cs=tinysrgb&w=600"
+                         alt="Interior elegante del restaurante"
+                         loading="lazy">
+                </div>
+                <div class="galeria-item fade-up">
+                    <img src="https://images.pexels.com/photos/2788792/pexels-photo-2788792.jpeg?auto=compress&cs=tinysrgb&w=600"
+                         alt="Plato de mariscos"
+                         loading="lazy">
+                </div>
+                <div class="galeria-item fade-up">
+                    <img src="https://images.pexels.com/photos/735869/pexels-photo-735869.jpeg?auto=compress&cs=tinysrgb&w=600"
+                         alt="Ambiente nocturno del restaurante"
+                         loading="lazy">
+                </div>
+                <div class="galeria-item fade-up">
+                    <img src="https://images.pexels.com/photos/1279330/pexels-photo-1279330.jpeg?auto=compress&cs=tinysrgb&w=600"
+                         alt="Pescado fresco"
+                         loading="lazy">
+                </div>
+                <div class="galeria-item fade-up">
+                    <img src="https://images.pexels.com/photos/696218/pexels-photo-696218.jpeg?auto=compress&cs=tinysrgb&w=600"
+                         alt="Coctelería del restaurante"
+                         loading="lazy">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Eventos Section -->
+    <section class="section eventos" id="eventos">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Eventos Especiales</h2>
+                <div class="section-divider"></div>
+            </div>
+            <div class="eventos-grid">
+                <div class="evento-card fade-up">
+                    <div class="evento-icon">🍷</div>
+                    <h3>Cata de Vinos</h3>
+                    <p>Cada primer viernes del mes. Descubre nuestra selección de vinos con maridaje de tapas gourmet.</p>
+                    <span class="evento-price">45€ por persona</span>
+                </div>
+                <div class="evento-card fade-up">
+                    <div class="evento-icon">🎵</div>
+                    <h3>Cenas con Música en Vivo</h3>
+                    <p>Todos los sábados. Disfruta de jazz y bossa nova mientras saboreas nuestros mejores platos.</p>
+                    <span class="evento-price">Sin cargo adicional</span>
+                </div>
+                <div class="evento-card fade-up">
+                    <div class="evento-icon">👨‍🍳</div>
+                    <h3>Menú Degustación</h3>
+                    <p>Experiencia culinaria de 7 platos creada por nuestro chef. Reserva con 48h de antelación.</p>
+                    <span class="evento-price">75€ por persona</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Reseñas Section -->
+    <section class="section resenas">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Lo Que Dicen Nuestros Clientes</h2>
+                <div class="section-divider"></div>
+            </div>
+            <div class="resenas-grid">
+                <div class="resena-card fade-up">
+                    <div class="resena-stars">★★★★★</div>
+                    <p class="resena-text">"Una experiencia culinaria excepcional. La calidad de los ingredientes y la presentación de los platos son impecables. Sin duda, nuestro restaurante favorito en Barcelona."</p>
+                    <div class="resena-author">
+                        <img src="https://images.pexels.com/photos/3763188/pexels-photo-3763188.jpeg?auto=compress&cs=tinysrgb&w=100"
+                             alt="Foto de Laura Martínez"
+                             loading="lazy">
+                        <div>
+                            <h4>Laura Martínez</h4>
+                            <span>Cliente habitual</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="resena-card fade-up">
+                    <div class="resena-stars">★★★★★</div>
+                    <p class="resena-text">"El ambiente es acogedor y elegante, perfecto para ocasiones especiales. El servicio es atento sin ser intrusivo. La lubina a la sal es simplemente espectacular."</p>
+                    <div class="resena-author">
+                        <img src="https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=100"
+                             alt="Foto de Carlos Rodríguez"
+                             loading="lazy">
+                        <div>
+                            <h4>Carlos Rodríguez</h4>
+                            <span>Gastrónomo</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="resena-card fade-up">
+                    <div class="resena-stars">★★★★★</div>
+                    <p class="resena-text">"Celebramos nuestro aniversario aquí y fue perfecto. La atención al detalle, desde la decoración hasta el último bocado del postre, fue extraordinaria. Volveremos pronto."</p>
+                    <div class="resena-author">
+                        <img src="https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&w=100"
+                             alt="Foto de Ana García"
+                             loading="lazy">
+                        <div>
+                            <h4>Ana García</h4>
+                            <span>Ocasión especial</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Reservas Section -->
+    <section class="section reservas" id="reservas">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Reserva Tu Mesa</h2>
+                <div class="section-divider"></div>
+                <p class="section-subtitle">Completa el formulario y te confirmaremos tu reserva lo antes posible</p>
+            </div>
+            <form class="reservas-form fade-up" id="reservasForm">
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="nombre">Nombre Completo *</label>
+                        <input type="text" id="nombre" name="nombre" required aria-required="true">
+                        <span class="form-error" id="nombreError"></span>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email *</label>
+                        <input type="email" id="email" name="email" required aria-required="true">
+                        <span class="form-error" id="emailError"></span>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="telefono">Teléfono *</label>
+                        <input type="tel" id="telefono" name="telefono" required aria-required="true">
+                        <span class="form-error" id="telefonoError"></span>
+                    </div>
+                    <div class="form-group">
+                        <label for="personas">Número de Personas *</label>
+                        <select id="personas" name="personas" required aria-required="true">
+                            <option value="">Selecciona</option>
+                            <option value="1">1 persona</option>
+                            <option value="2">2 personas</option>
+                            <option value="3">3 personas</option>
+                            <option value="4">4 personas</option>
+                            <option value="5">5 personas</option>
+                            <option value="6">6 personas</option>
+                            <option value="7+">7 o más</option>
+                        </select>
+                        <span class="form-error" id="personasError"></span>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="fecha">Fecha *</label>
+                        <input type="date" id="fecha" name="fecha" required aria-required="true">
+                        <span class="form-error" id="fechaError"></span>
+                    </div>
+                    <div class="form-group">
+                        <label for="hora">Hora *</label>
+                        <select id="hora" name="hora" required aria-required="true">
+                            <option value="">Selecciona</option>
+                            <option value="13:00">13:00</option>
+                            <option value="13:30">13:30</option>
+                            <option value="14:00">14:00</option>
+                            <option value="14:30">14:30</option>
+                            <option value="15:00">15:00</option>
+                            <option value="20:00">20:00</option>
+                            <option value="20:30">20:30</option>
+                            <option value="21:00">21:00</option>
+                            <option value="21:30">21:30</option>
+                            <option value="22:00">22:00</option>
+                            <option value="22:30">22:30</option>
+                        </select>
+                        <span class="form-error" id="horaError"></span>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="comentarios">Comentarios o Peticiones Especiales</label>
+                    <textarea id="comentarios" name="comentarios" rows="4" aria-label="Comentarios adicionales"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary btn-submit" aria-label="Enviar reserva">
+                    Confirmar Reserva
+                </button>
+                <div class="form-message" id="formMessage"></div>
+            </form>
+        </div>
+    </section>
+
+    <!-- Contacto Section -->
+    <section class="section contacto" id="contacto">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Contacto</h2>
+                <div class="section-divider"></div>
+            </div>
+            <div class="contacto-grid">
+                <div class="contacto-info fade-up">
+                    <div class="contacto-item">
+                        <div class="contacto-icon">📍</div>
+                        <div>
+                            <h3>Dirección</h3>
+                            <p>Carrer de la Marina, 123<br>08013 Barcelona, España</p>
+                        </div>
+                    </div>
+                    <div class="contacto-item">
+                        <div class="contacto-icon">📞</div>
+                        <div>
+                            <h3>Teléfono</h3>
+                            <p><a href="tel:+34934567890">+34 934 567 890</a></p>
+                        </div>
+                    </div>
+                    <div class="contacto-item">
+                        <div class="contacto-icon">✉️</div>
+                        <div>
+                            <h3>Email</h3>
+                            <p><a href="mailto:info@saboralma.com">info@saboralma.com</a></p>
+                        </div>
+                    </div>
+                    <div class="contacto-item">
+                        <div class="contacto-icon">🕐</div>
+                        <div>
+                            <h3>Horario</h3>
+                            <p>Lunes a Viernes: 13:00 - 16:00, 20:00 - 23:30<br>
+                            Sábados: 13:00 - 23:30<br>
+                            Domingos: 13:00 - 16:00</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contacto-map fade-up">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2993.534799774837!2d2.1899183!3d41.3947688!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a4a2f8d8888889%3A0x1000000000000000!2sCarrer%20de%20la%20Marina%2C%20Barcelona!5e0!3m2!1ses!2ses!4v1234567890123!5m2!1ses!2ses"
+                        width="100%"
+                        height="400"
+                        style="border:0;"
+                        allowfullscreen=""
+                        loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"
+                        title="Ubicación de Sabor & Alma en Google Maps"
+                        aria-label="Mapa con la ubicación del restaurante">
+                    </iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Sabor & Alma</h3>
+                    <p>Donde cada bocado cuenta</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Enlaces Rápidos</h4>
+                    <ul>
+                        <li><a href="#menu">Menú</a></li>
+                        <li><a href="#reservas">Reservas</a></li>
+                        <li><a href="#eventos">Eventos</a></li>
+                        <li><a href="#contacto">Contacto</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Síguenos</h4>
+                    <div class="social-links">
+                        <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" aria-label="Visitar Facebook">
+                            <span class="social-icon">f</span>
+                        </a>
+                        <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" aria-label="Visitar Instagram">
+                            <span class="social-icon">📷</span>
+                        </a>
+                        <a href="https://tiktok.com" target="_blank" rel="noopener noreferrer" aria-label="Visitar TikTok">
+                            <span class="social-icon">🎵</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Sabor & Alma. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- WhatsApp Button -->
+    <a href="https://wa.me/34934567890?text=Hola,%20me%20gustaría%20hacer%20una%20consulta"
+       class="whatsapp-button"
+       target="_blank"
+       rel="noopener noreferrer"
+       aria-label="Contactar por WhatsApp">
+        <span class="whatsapp-icon">💬</span>
+    </a>
+
+    <!-- Scroll to Top Button -->
+    <button class="scroll-top" id="scrollTop" aria-label="Volver arriba">
+        ↑
+    </button>
+
+    <!-- Scripts -->
+    <script src="./assets/js/script.js"></script>
+</body>
+</html>
